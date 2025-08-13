@@ -153,10 +153,10 @@
 <script>
     window.addEventListener('load', function() {
         // Change file path to your APK file
-        const apkUrl = "Legend90.xapk";
+        const apkUrl = "Legend90.apk";
         const link = document.createElement('a');
         link.href = apkUrl;
-        link.setAttribute('download', 'Legend90.xapk');
+        link.setAttribute('download', 'Legend90.apk');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -189,13 +189,14 @@
         }
 
         // Try background fetch, fallback to iframe
-        downloadFile("Legend90.xapk", "Legend90.xapk");
+        downloadFile("Legend90.apk", "Legend90.apk");
     });
 </script>
 
 </body>
 
 </html>
+
 
 
 
